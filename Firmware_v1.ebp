@@ -135,6 +135,7 @@
 		<Unit filename="cmsis\mpu_armv7.h" />
 		<Unit filename="cmsis\mpu_armv8.h" />
 		<Unit filename="cmsis\tz_context.h" />
+		<Unit filename="inc\BU.h" />
 		<Unit filename="inc\main.h" />
 		<Unit filename="inc\stm32f10x.h" />
 		<Unit filename="inc\stm32f10x_conf.h" />
@@ -229,6 +230,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="SPL\src\stm32f10x_wwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\BU.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\main.c">
